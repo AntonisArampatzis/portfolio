@@ -1,0 +1,45 @@
+ .Home {
+     height: 100vh;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-image:
+         linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+         linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+         url('/src/assets/bg.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+
+
+ .welcomeWindow {
+     font-size: 3rem;
+     margin-left: 7rem;
+     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+     letter-spacing: 2px;
+ }
+
+ @media (max-width: 768px) {
+     .welcomeWindow {
+         margin-left: 0;
+         font-size: 2rem;
+     }
+ }
+
+
+ .helloh1 {
+     font-size: 6rem;
+     color: #d90429;
+ }
+
+
+ .span {
+     color: #d90429;
+ }
+
+ .welcomeText {
+     color: #F1FAEE;
+ }

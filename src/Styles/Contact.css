@@ -1,0 +1,86 @@
+.Contact {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+        linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+        url('/src/assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form-header {
+    font-size: 4rem;
+    color: #fefae0;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5),
+        0px -3px 5px rgba(232, 228, 228, 0.3);
+    letter-spacing: 2px;
+}
+
+
+
+.col-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #03030161;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border: 3px solid white;
+    margin-bottom: 10rem;
+}
+
+.label {
+    font-weight: bold;
+    color: #fefae0;
+}
+
+.submit-btn {
+    width: 100%;
+    color: #DD1133;
+    background-color: #F1FAEE;
+    font-weight: 500;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #c1121f;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+@media (max-width: 768px) {
+    .form-header {
+        font-size: 3rem;
+    }
+}
