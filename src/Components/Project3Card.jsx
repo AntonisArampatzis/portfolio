@@ -5,7 +5,7 @@ export default function Project3Card() {
     return (
         <Card className="card">
             <div className="card-img">
-                <Card.Img src="/src/assets/project3img.png" alt="proj3" />
+                <Card.Img src="public/project3img.png" alt="proj3" />
             </div>
             <div className="card-description">
                 <Card.Body>
