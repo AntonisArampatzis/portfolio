@@ -14,7 +14,7 @@ export default function Project1Card() {
                 </Card.Body>
                 <a href="https://github.com/AntonisArampatzis/Matchy-Matchy-" target="_blank" rel="noopener noreferrer">
                     <div className="github-icon">
-                        <img src="/src/assets/github-icon.png" alt="gh-icon" />
+                        <img src="/github-icon.png" alt="gh-icon" />
                     </div>
                 </a>
             </div>

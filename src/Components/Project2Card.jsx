@@ -15,7 +15,7 @@ export default function Project2Card() {
                     </Card.Text>
                 </Card.Body>
 
-                <div className='github-icon'><img src="/src/assets/github-icon.png" alt="gh-icon" /></div>
+                <div className='github-icon'><img src="/github-icon.png" alt="gh-icon" /></div>
             </div>
         </Card>
     )

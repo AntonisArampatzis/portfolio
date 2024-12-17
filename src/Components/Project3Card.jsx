@@ -16,7 +16,7 @@ export default function Project3Card() {
                 </Card.Body>
                 <a href="https://github.com/AntonisArampatzis/Password-Generator-Project" target="_blank" rel="noopener noreferrer">
                     <div className='github-icon'>
-                        <img src="/assets/github-icon.png" alt="gh-icon" />
+                        <img src="/github-icon.png" alt="gh-icon" />
                     </div>
                 </a>
             </div>
