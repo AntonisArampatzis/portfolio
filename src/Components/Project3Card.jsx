@@ -5,7 +5,7 @@ export default function Project3Card() {
     return (
         <Card className="card">
             <div className="card-img">
-                <Card.Img src="public/project3img.png" alt="proj3" />
+                <Card.Img src="/project3img.png" alt="proj3" />
             </div>
             <div className="card-description">
                 <Card.Body>
@@ -16,7 +16,7 @@ export default function Project3Card() {
                 </Card.Body>
                 <a href="https://github.com/AntonisArampatzis/Password-Generator-Project" target="_blank" rel="noopener noreferrer">
                     <div className='github-icon'>
-                        <img src="/src/assets/github-icon.png" alt="gh-icon" />
+                        <img src="/assets/github-icon.png" alt="gh-icon" />
                     </div>
                 </a>
             </div>

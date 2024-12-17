@@ -5,7 +5,7 @@ export default function Project2Card() {
     return (
         <Card className="card">
             <div className="card-img">
-                <Card.Img src="public/project2img.png" alt="proj2" />
+                <Card.Img src="/project2img.png" alt="proj2" />
             </div>
             <div className="card-description">
                 <Card.Body>

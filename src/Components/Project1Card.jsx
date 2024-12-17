@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 export default function Project1Card() {
     return (
         <Card className="card">
-            <Card.Img src="public/project1img.png" alt="proj1" className='card-img img-fluid ' />
+            <Card.Img src="/project1img.png" alt="proj1" className='card-img img-fluid ' />
             <div className="card-description">
                 <Card.Body>
                     <Card.Text className="card-text">
